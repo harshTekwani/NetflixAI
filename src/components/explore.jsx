@@ -1,0 +1,3 @@
+const movies = [
+    "Spirited Away","The Grand Budapest Hotel","Blade Runner 2049","Whiplash","Moonlight","Amadeus","Eternal Sunshine of the Spotless Mind","12 Angry Men","The Good, the Bad and the Ugly","Casablanca","Schindler's List","Cinema Paradiso","The Truman Show","Pan's Labyrinth","Y Tu Mamá También","Parasite","Mad Max: Fury Road","Inception","The Princess Bride","The Big Lebowski","Lagaan","Crouching Tiger, Hidden Dragon","The Farewell","Coco","Roma"
+  ];
