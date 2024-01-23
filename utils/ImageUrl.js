@@ -8,10 +8,12 @@ export const options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NDhiOThlNTdiYTIzMWM4Y2NjMzg0MWRlNThkMTA2NSIsInN1YiI6IjY1NzgzZjZmODlkOTdmMDBjNjc4ZmNkYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.llzZ1yU-FeEartV3-E7bDJzULut5LtyRr22EkGVVjSw'
+      // eslint-disable-next-line no-undef
+      Authorization: "Bearer "+ import.meta.env.VITE_REACT_APP_TMDB_KEY
     }
   };
 
 export const MovieCardImg = "https://image.tmdb.org/t/p/w200"
 
-export const GOOGLEAI_KEY = "AIzaSyD4-BNqdJHo3v3zoCT_kUGg-VPaKXY87k8"
+// eslint-disable-next-line no-undef
+export const GOOGLEAI_KEY =  import.meta.env.VITE_REACT_APP_GOOGLEAI_KEY

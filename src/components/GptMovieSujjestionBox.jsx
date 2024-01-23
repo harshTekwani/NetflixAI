@@ -5,6 +5,8 @@ import { options } from '../../utils/ImageUrl'
 
 const GptMovieSujjestionBox = () => {
   const movies = useSelector((state)=>state.gpt.gptMovies)
+
+  if(!movies) return "Error search for another input"
   
 
   return (
